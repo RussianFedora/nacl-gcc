@@ -1,11 +1,11 @@
 %global gitver cff9ac88
 %global gcc_target_platform x86_64-nacl
-%global bootstrap 2
+%global bootstrap 0
 
 Name:		nacl-gcc
 Summary:	Various compilers (C, C++) for nacl
 Version:	4.4.3
-Release:	0.2.git%{gitver}%{?dist}.R
+Release:	2.git%{gitver}%{?dist}.R
 # Generated from git
 # git clone http://git.chromium.org/native_client/nacl-gcc.git
 # (Checkout ID taken from chromium-15.0.874.106/native_client/tools/REVISIONS)
